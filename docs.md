@@ -1,20 +1,30 @@
 ---
-title: SS14 Docs
-description: Freely editable, organized documentation for the Space Station 14 project. Game design, general thoughts, and links are examples of what might fit here.
-tags: ss14, documentation, game design
+title: SS14 Knowledgebase
+description: Space Station 14 knowledgebase. Mostly game design, general thoughts, and curated information.
+tags: ss14, knowledge, game design
 breaks: false
-# Don't touch the YAML stuff. Breaks=false is for compatibility with github in case we decide to sync with them later.
+# Don't touch the YAML stuff.
 ---
 
-# Space Station 14 docs
+# Space Station 14 knowledgebase
+
+![](https://i.imgur.com/yvy8gCd.png)
 
 ## What is this?
 
-The main repository for the [Space Station 14 project](https://github.com/space-wizards/space-station-14)'s documentation, roadmaps, and general content.
+[Space Station 14](https://spacestation14.io/about/)'s knowledgebase for keeping track of content such as game design, curated information, and general thoughts. 
 
-Use the table of contents at the top right for navigating the document.
+If you're new to ss14, you can check out the [website & blog](https://spacestation14.io/about/), [discord](https://discord.gg/XrVdCvM), or [subreddit](https://old.reddit.com/r/ss14/) to get familiar with the project before reading on.
 
-You can fully comment/edit this document, even without logging in, but [please read the primer on contributing first](#Meta). The document's auto-versioned, so trying to grief it is pointless.
+### Reading this document
+
+This document is more like a dictionary than an essay, so the content isn't arranged or ordered particularly well. Feel free to use the table of contents at the top right to skip between sections.
+
+### Adding to this document
+
+This document is meant for structured, non-code-implementation-specific knowledge. If you want to actively discuss something, use the [discord](https://discord.gg/XrVdCvM). If you want to talk about code-related bugs or implementations, use [github issues](https://github.com/space-wizards/space-station-14/issues). Everything else can go here.
+
+You can comment or edit this document even without logging in. If you plan on doing anything more than minor editing, [please read the primer on contributing first](#Meta).
 
 # Gameplay Design 
 In no particular order.
@@ -187,19 +197,7 @@ To improve immersion there should be added the next features: A positional audio
 
 > https://discordapp.com/channels/310555209753690112/310555209753690112/648617915838365705
 
-# Muh Lore
-
-## Arch-Plasma
-Renaming Plasma.
-
-Phoron, Plasma, whatever. Probably not Plasma.
-
-[2017-05-11 Very long Discord discussion with many name suggestions 
-](https://discordapp.com/channels/310555209753690112/311537926376783886/312287658946854925)[2019-10-01 Discord discussion
-](https://discordapp.com/channels/310555209753690112/623964557064273951/628512272217669633)[2019-10-24 Short Discord discussion
-](https://discordapp.com/channels/310555209753690112/623964557064273951/636867401987784724)
-
-# Miscellaneous Opinions/Discussions
+# Misc Ops
 
 [On actions that take time to complete](https://discordapp.com/channels/310555209753690112/311537926376783886/604445031683850240)
 
@@ -211,6 +209,77 @@ Should we setup a Patreon?
 Short-form discussion doesn't really fit in this document. Better to use the discord and then later summarize in this document.
 
 
+# Other work
+
+These are some of the projects/unmet demands/hopeless wishes that don't involve code or game design.
+
+## Naming things
+
+The hardest problem in computer science.
+If you come up with a good idea for a name, post it in the discord in the #ss14-development or #ideaguys channel or whatever, or as a comment on here.
+
+### Space Station 14
+
+Space Station 14 was easy to come up with, but isn't very inspiring. Can you come up with a better name? Try to match as many of these criteria as possible:
+
+* Relevant to the themes, gameplay, or community of Space Station 14.
+    * By far the most important criterion. For example, `Space Station 13` has a very good name, because it makes it clear that the game is on a `Space Station`, and doomed by the `13` to end in tragic/comic destruction. This is one of the main reason `Space Station 14` doesn't really work that well as a name - yeah, it's in space (though it may not end up being coded as a station), but what does the `14` even imply to anyone who hasn't heard of ss13?
+    * Try not to make it too specific. There are a lot of ss13 servers that don't take place on a Space Station, or in space at all, like World Server or Fallout 13. Mods of ss14 could end up going in very different directions.
+    * Mild bonus points if the name makes it obvious that it's a remake, since this will help with tying it to SS13 and bringing over its players.
+* Minimal competition for the name in domain names, search results, and mindshare.  
+    * The name should be available as a domain name. It's almost mandatory for some variant of a `.com` of the name to be available. Ideally just `[x].com`, but something like `play[x].com` or `[x]game.com` is fine. Non-`.com`'s like `.net` are basically not worth it: just ask minecraft.
+        * If the TLD becomes part of the name itself, that can work. For example, if the name is `remakio`, and the domain name is then `remak.io`.
+    * The name should avoid same- or similarly-named competitors on search results. Especially if the competitor with a similar name is also a game or a software project or whatever. Name conflicts with unrelated businesses like sewing clubs or charity organizations aren't as much of a problem.
+    * Also, if the name can be broken down into an acronym, check if anything already uses that acronym. Don't pull a TitanFall 2.
+    * Try this [convenient tool for checking name availability.](https://www.namecheckr.com/)
+* Short, or an abbreviation exists to make it short.
+    * E.g. Space Station 13 -> SS13.
+* Can actually be typed on a keyboard or pronounced.
+    * Pronunciation in real life is a little less important, since no one who plays SS13 ever goes outside and talks to people anyway.
+
+### Plasma/phoron
+
+The thing that space station 13 is supposed to be researching. Plasma is a very annoying name, being shared with a blood type, state of matter, and sci-fi energy mumbo jumbo, and phoron sounds like moron. Can you think of something better?
+
+See the previous discord discussions for phoron:
+
+* [2017-05-11 long discussion with many name suggestions 
+](https://discordapp.com/channels/310555209753690112/311537926376783886/312287658946854925)
+* [2019-10-01 Discord discussion
+](https://discordapp.com/channels/310555209753690112/623964557064273951/628512272217669633)
+* [2019-10-24 Short Discord discussion
+](https://discordapp.com/channels/310555209753690112/623964557064273951/636867401987784724)
+
+# Links
+
+A section for organizing links.
+
+## Space Station 14
+
+* [Website](https://spacestation14.io/)
+* [Discord invite link](https://discord.gg/t2jac3p)
+* [Github (content pack)](https://github.com/space-wizards/space-station-14)
+* [Github (engine pack)](https://github.com/space-wizards/RobustToolbox)
+* [Reddit](https://old.reddit.com/r/ss14/)
+
+## SS13 game design inspiration
+
+Various SS13 codebases' forums and githubs can be a good source of long-form posts on the state of the game, ideas for development, or general thoughts.
+
+* [SS13 reddit](https://old.reddit.com/r/SS13/)
+* [TGStation's forums](https://tgstation13.org/phpBB/index.php). In particular,
+    * [policy discussion](https://tgstation13.org/phpBB/viewforum.php?f=33)
+    * [coding feedback](https://tgstation13.org/phpBB/viewforum.php?f=10)
+    * [ideas](https://tgstation13.org/phpBB/viewforum.php?f=9)
+    * [coding](https://tgstation13.org/phpBB/viewforum.php?f=5)
+    * some good posts:
+        * [Antag rolling](https://tgstation13.org/phpBB/viewtopic.php?f=33&t=22704&sid=df4cab6df054cc4fcbc387a1f9a1e893)
+        * [Tragedy of the commons](https://tgstation13.org/phpBB/viewtopic.php?f=10&t=10074)
+* [Baystation's forums](https://forums.baystation12.net/)
+    * [policy discussion](https://forums.baystation12.net/view/policy-discussion.67/)
+    * [suggestions & feedback](https://forums.baystation12.net/view/s-f/)
+
+
 ---
 
 # Meta
@@ -220,9 +289,9 @@ Regarding this document itself.
 ## The quick rundown
 
 * Anyone is welcome to comment on, or edit the document; you don't need to be signed in. We're basically operating off trust (and the ability to easily revert grief).
-* You can comment by hovering over a line and hitting the speech bubble to the right of it.
-* You can edit by hitting the pencil button at the top right.
-* We suggest you sign up anyway though, it's fast. You can use email, a github account, facebook, whatever. It'll help with attributing and discussing changes, and we'll give you more charity if you make any major controversial edits. 
+* You can comment by hovering over a line and hitting the speech bubble to the right of it. This is always fine for you to do.
+* You can edit by hitting the pencil button at the top right. Please be respectful with changes. Ideally, discuss them on the discord first.
+* We suggest that you do sign up, though. It's fast. You can use email, a github account, facebook, whatever. It'll help with attributing and discussing changes, and we'll give you more charity if you make any major controversial edits. 
 * **If your signup method involves your real name (e.g. you used realname@gmail.com), make sure to set your username to something else [here](https://hackmd.io/settings#general) before you start editing.** Ideally, your discord username so we can discuss changes. 
 
 ## Specifics on editing
@@ -230,6 +299,7 @@ Regarding this document itself.
 * Read hackmd's [features page](/features) to learn the formatting. Read it even if you already know Markdown; it extends it a lot with cool stuff like flowcharts and UML diagrams.
 * Practice heading hygiene. Don't litter the document with h1's for minor stuff, this kills the usefulness of the hierarchy/table of contents and looks like ass.
 * You can use anchor tags in this document, like if you want to link to the `Meta` heading, you can write `[visible part](#meta)`, like [this](#meta). This is particularly useful because it doesn't hard load another page/open a tab. **It also means you need to be careful with renaming headings, because there might be a link pointing to it.**
+* Keep top level (h1's / single #'s) heading's names short. They get truncated in the ToC if they're too long.
 
 ## Todos
 
